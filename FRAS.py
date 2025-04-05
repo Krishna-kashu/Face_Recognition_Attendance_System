@@ -199,9 +199,9 @@ def run_attendance_system():
 
 # Function to send email with attendance file
 def send_email():
-    email_address = "nageshkumbar70@gmail.com"
+    email_address = "your_mail@gmail.com"
     password = "knnw jzxm draw xgwz"
-    receiver_email = "Nageshsk453@gmail.com"
+    receiver_email = "receiver_mail@gmail.com"
     
     yag = yagmail.SMTP(email_address, password)
     current_date = datetime.now().strftime("%Y-%m-%d")
